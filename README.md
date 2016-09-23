@@ -31,7 +31,7 @@ Check out the file structure below.
 
 ```
 bin
-   |–– greet
+   |-- greet
 lib
    |–– greeting.rb
 spec
