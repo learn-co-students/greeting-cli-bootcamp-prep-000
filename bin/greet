@@ -2,3 +2,9 @@
 require_relative "../lib/greeting.rb"
 
 # code your CLI here!
+puts "Hi! I'm HAL, what's your name?"
+# STRIP method removes whitespace BEFORE and AFTER the user input
+name = gets.strip 
+# CHOMP method removes whitespace AFTER the user input.
+# name = gets.chomp
+puts greeting(name)
