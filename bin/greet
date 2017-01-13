@@ -1,4 +1,13 @@
+# Learn.co Bootcamp Prep - Ruby Fundamentals - 12: Greeting CLI Lab
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
 
-# code your CLI here!
+# Print greeting
+puts "Hi! I'm HAL, what's your name?"
+# Wait for user input.
+
+# Store stripped user input in 'name'.
+name = gets.strip
+
+# Call greeting method.
+greeting(name)
