@@ -8,7 +8,7 @@ describe './lib/greeting.rb' do
   context '#greeting' do
     it 'takes in an argument of a persons name' do
       allow($stdout).to receive(:puts)
-      
+
       expect{greeting("Bobby")}.to_not raise_error
     end
 
@@ -17,7 +17,7 @@ describe './lib/greeting.rb' do
 
       output = capture_puts{ greeting("Sally") }
 
-      expect(output).to include("Hello Sally. It's nice to meet you.")
+      expect(output).to include("\'Sup, Bitch!\n... \nI mean, SALLY! \nyeah,... \nSally, it's good to see you!")
     end
   end
 end
