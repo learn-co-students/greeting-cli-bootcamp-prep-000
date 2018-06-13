@@ -4,6 +4,10 @@ require_relative "../lib/greeting.rb"
 # code your CLI here!
 
 # greet and introduce HAL
-puts 'Hi! I'm HAL, what's your name?'
+puts "Hi! I'm HAL, what's your name?"
+
+# use gets to get the name at the prompt and strip out whitespace and newline char
 name = gets.strip
 
+# run the greeting function with the name param
+greeting(name)
