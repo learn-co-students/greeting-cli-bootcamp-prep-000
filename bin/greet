@@ -2,3 +2,7 @@
 require_relative "../lib/greeting.rb"
 
 # code your CLI here!
+puts ""Hi! I'm HAL, what's your name?"
+puts ""Make sure bin/greet has code that can output 'Hi! I'm HAL, what's your name?' exactly."
+name = gets.strip
+end
