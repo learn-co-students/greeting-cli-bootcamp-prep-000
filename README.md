@@ -1,4 +1,4 @@
-# Greeting Cli
+lear# Greeting Cli
 
 ## Objectives
 
