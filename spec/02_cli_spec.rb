@@ -37,7 +37,3 @@ describe './bin/greet executing a CLI Application' do
     expect(output).to include("Hello Don. It's nice to meet you.")
   end
 end
-
-puts "Hi! I'm HAL, what's your name?"
- name = gets.strip
-greeting(name)

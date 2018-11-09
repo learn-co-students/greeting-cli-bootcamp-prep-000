@@ -29,7 +29,3 @@ describe './lib/greeting.rb' do
     end
   end
 end
-
-def greeting(name)
-  puts "Hello #{name}. It's nice to meet you."
-end
