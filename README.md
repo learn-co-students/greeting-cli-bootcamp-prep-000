@@ -20,7 +20,7 @@ Our program will:
 4. Use that captured input to `puts` out a string that greets the user by name, using string interpolation.
 
 Check out the video below to see the final product in action:
-
+sssdqasd
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sBQBP1Aaxzk" frameborder="0" allowfullscreen></iframe>
 
 Notice that the program is run with `ruby bin/greet`––we are using Ruby to run the code in the executable file that lives in our `bin` directory. Let's take a closer look at our project structure now.
