@@ -55,6 +55,7 @@ The `lib` directory is where we place the code that our program relies on to run
 
 This directory contains the tests for our program. We have tests for the code in the `lib` directory in `spec/01_greeting_spec.rb` and tests for the CLI, i.e. the user interaction portion of our application, in `spec/02_cli_spec.rb`. We'll use the test output from running `learn` along with the guidelines below to get our program working.
 
+
 ## Instructions
 
 ### Part I: The   `greeting` Method
