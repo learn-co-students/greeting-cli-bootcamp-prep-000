@@ -2,5 +2,7 @@
 require_relative "../lib/greeting.rb"
 
 puts "Hi! I'm HAL, what's your name?"
-name = gets.strip
+name = gets
 greeting(name)
+
+#Doesn't matter if I have a strip/chomp here after name = gets because there is a strip in greeting.rb, if not in greeting.rb then test fails
