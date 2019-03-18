@@ -2,3 +2,11 @@
 require_relative "../lib/greeting.rb"
 
 # code your CLI here!
+
+puts "Hi! I'm HAL, what's your name?"
+
+name = gets.chomp.strip
+
+greeting(name)
+
+#In this lab, since testing is done individually on the name variable and the greeting method, name could just be set to gets for the purpose of testing only. Refer to lib, where you see ${name1.chomp.strip}. It's getting chomped and stripped SOMEWHERE, but for the purpose of the test parameters it had to be in greeting and it didn't matter for bin. At a minimum, name has to be set equal to gets, but setting it equal to gets.chomp.strip will also make it pass. In the real world, one would probably set it to gets.chomp.strip, but the other way works too
