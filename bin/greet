@@ -2,3 +2,12 @@
 require_relative "../lib/greeting.rb"
 
 # code your CLI here!
+
+#1. Use `#puts` to output the string "Hi! I'm HAL, what's your name?"
+#2. `greeting` should take in the user input, and inside, students will need to strip the string of white space before outputting
+#Call the `#greeting` method with an argument of the user's name (captured using `#gets` in step 2) to output the interpolated welcome string.
+
+greeting = gets.chomp
+
+greeting(greeting)
+
