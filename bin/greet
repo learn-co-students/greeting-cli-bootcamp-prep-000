@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
-require_relative "../lib/greeting.rb"
-
-# code your CLI here!
+require_relative "../lib/greeting.rb" #references additional needed code to make this program file to run
+puts "Hi! I'm HAL, what's your name?" #requests user input
+name = gets.strip #captures user input
+greeting(name) #use input to more exactly greet the user
