@@ -2,6 +2,11 @@
 require_relative "../lib/greeting.rb"
 
 # code your CLI here!
+<<<<<<< HEAD
 puts "Hi! I'm HAL, what's your name?"
 name = gets.chomp.strip
+=======
+puts ("Hi! I'm HAL, what's your name?")
+name = gets.strip.chomp()
+>>>>>>> 5a439c4004293ca8b170bd18929fefd483a47c0a
 greeting(name)
