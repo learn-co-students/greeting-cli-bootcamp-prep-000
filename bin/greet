@@ -2,3 +2,8 @@
 require_relative "../lib/greeting.rb"
 
 # code your CLI here!
+puts "Hi! I'm HAL, what's your name?"
+# capture the name from input ($stdin) and set to 'name' variable
+name = gets.strip
+# call function 'greeting' with the new variable 'name'
+greeting(name)
