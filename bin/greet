@@ -1,4 +1,11 @@
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
 
+# Use #puts to output the string "Hi! I'm HAL, what's your name?"
+# Use the #gets.strip method to store the user's input and set it equal to a variable called name.
+# Call the #greeting method with an argument of the user's name (captured using #gets in step 2) to output the interpolated welcome string.
 # code your CLI here!
+
+puts "Hi! I'm HAL, what's your name?"
+name = gets.strip
+greeting(name)
